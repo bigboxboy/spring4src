@@ -1,0 +1,52 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.pccw.badboy.spring4</groupId>
+    <artifactId>spring4-parent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>spring4-core</artifactId>
+  
+  <dependencies>
+	<dependency>
+		<groupId>commons-codec</groupId>
+		<artifactId>commons-codec</artifactId>
+		<!-- <version>1.10</version> -->
+		<scope>compile</scope>
+		<optional>true</optional>
+	</dependency>
+	<dependency>
+		<groupId>commons-logging</groupId>
+		<artifactId>commons-logging</artifactId>
+		<!-- <version>1.2</version> -->
+		<scope>compile</scope>
+	</dependency>
+	<dependency>
+		<groupId>log4j</groupId>
+		<artifactId>log4j</artifactId>
+		<!-- <version>1.2.17</version> -->
+		<scope>compile</scope>
+		<optional>true</optional>
+	</dependency>
+	<dependency>
+		<groupId>net.sf.jopt-simple</groupId>
+		<artifactId>jopt-simple</artifactId>
+		<!-- <version>5.0.3</version> -->
+		<scope>compile</scope>
+		<optional>true</optional>
+	</dependency>
+	<dependency>
+		<groupId>org.aspectj</groupId>
+		<artifactId>aspectjweaver</artifactId>
+		<!-- <version>1.8.9</version> -->
+		<scope>compile</scope>
+		<optional>true</optional>
+	</dependency>
+	<dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-core</artifactId>
+      <version>4.3.23.RELEASE</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
